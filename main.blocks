@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="jcgGriVaXrzIA$D6AfRq" x="603" y="-146"><statement name="HANDLER"><block type="device_show_leds" id="{XeG;z5TE}Dp|xbl@z.["><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="rs$[79i@Nk7kHwfJxSwL"><value name="pause"><shadow type="timePicker" id="hM;?#0,QVu?h!iHCQ}`?"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="X9VA.A{^Obur9X70-,lz"><field name="LEDS">`
+        . . . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="`agCG9D6*][/]xRJe*Ox"><value name="pause"><shadow type="timePicker" id="BWD@8x%~t)DO|`Z:%~~m"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="R~g#mz=KRS9@yO?6`c6,"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="`}/zY#q}HxqfotbwJ$DS"><value name="pause"><shadow type="timePicker" id="3O_~Fq6Ub$5$RYX4iH14"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="/sV%|Owl]U4WC!^(mdsc"><field name="LEDS">`
+        # # . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="nnclTMKpq=rJHSeKNV45"><value name="pause"><shadow type="timePicker" id="5+CFCz*NYhRxSG%tt+xz"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="OEbBJN9XC+B7psBKkg,r"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="S;w*JevQGN1ZHJ(U`*2/"><value name="pause"><shadow type="timePicker" id="njnDqh?.7)t#.6H0x?RZ"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="GE-)i/.ztbDe8gXaW6W3"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="}*j,Uko@RQUSt+s{.LLh"><value name="pause"><shadow type="timePicker" id="wR;FPZ?JW-H=:4M|sT~u"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="(/xwr8`:Jpve+az#?%MP" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="setMotorSpeed" id=";S`eP|WF?bCFTXB}@8JS"><field name="motor">wuKong.MotorList.M1</field><value name="speed"><shadow type="math_number_minmax" id="sPBO;tRcrBgb(hE!WNmz"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="setMotorSpeed" id=".Wh;q:7.am#$k3Ivj^xT"><field name="motor">wuKong.MotorList.M2</field><value name="speed"><shadow type="math_number_minmax" id="!zK/ZJnm|^F%v(UogJW2"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="p}9cc2)l.WdZ[I,K$BbR" x="-118" y="173"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="setMotorSpeed" id="TF0|8z/CW26pehywO*RP"><field name="motor">wuKong.MotorList.M1</field><value name="speed"><shadow type="math_number_minmax" id="ItjMUmtK4oLK3DyoUBeI"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">-50</field></shadow></value><next><block type="setMotorSpeed" id="}iBX:_A3^0yQ;mR!3kFp"><field name="motor">wuKong.MotorList.M2</field><value name="speed"><shadow type="math_number_minmax" id="pth(+8c:[eKC}@N*:oC)"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">-50</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="`^;!O|[8dvD3~y)VWH9!" x="-390" y="286"><statement name="HANDLER"><block type="device_show_leds" id="YJy-hzAnB%P+XqRaPr%p"><field name="LEDS">`
+        . . . . . 
+        # . . . . 
+        . # . . . 
+        . . # . # 
+        . . . # .
+        `</field></block></statement></block><block type="device_button_event" id="HH(s|nU7.}:oxkSh7_q@" x="197" y="310"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="stopAllMotor" id="aVsJac_Iw{**(@(+[zoC"></block></statement></block><block type="device_gesture_event" id="1o(^m/[}Qgna6sL^+*?3" x="-81" y="396"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="setServoAngle" id="2aS44m%/XYHq~s]pj7b2"><field name="servoType">wuKong.ServoTypeList._270</field><field name="servo">wuKong.ServoList.S0</field><value name="angle"><shadow type="math_number_minmax" id="!S9MjvG/5aN|5{-Gcy?N"><mutation min="0" max="360" label="Angle" precision="0"></mutation><field name="SLIDER">253</field></shadow></value></block></statement></block><block type="device_gesture_event" id="{vsHd9I/5L7GpPg~IX{n" x="262" y="519"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="setServoAngel" id="O?jZ*G]=9$-W{@ej$;W,"><field name="servo">Longan.ServoList.S0</field><value name="angle"><shadow type="protractorPicker" id="^[a`J]9T11984dbutb/^"><field name="angle">30</field></shadow></value></block></statement></block><block type="setServoAngel" id="lZIvuXUR%|NM6`{+n3B)" disabled="true" x="-134" y="587"><field name="servo">Longan.ServoList.S0</field><value name="angle"><shadow type="protractorPicker" id="duVf|hQ*h5JSH|NYw-SF" disabled="true"><field name="angle">210</field></shadow></value></block></xml>
